@@ -1,0 +1,160 @@
+.section-kepsek {
+    padding: 15px;
+    font-family: viga;
+}
+
+.container-kepsek img {
+    width: 200px;
+    height: 200px;
+    margin: 8px;
+    border-radius: 50%;
+    box-sizing: border-box;
+
+}
+
+
+
+.nav-link {
+    text-transform: uppercase;
+    margin-right: 20px;
+}
+
+.navbar-brand {
+    font-family: viga;
+    font-size: 26px;
+}
+
+.nav-link {
+    text-transform: uppercase;
+    margin-right: 20px;
+}
+
+/* Prestasi */
+.section-awards {
+    box-shadow: 0px -3px 20px 0px #0000001c;
+}
+
+.section-awards .hero {
+    padding-top: 70px;
+    padding-bottom: 90px;
+}
+
+.hero.hero-bg-image {
+    background-position: center;
+}
+
+.hero {
+    border-radius: 3px;
+    padding: 55px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+}
+
+
+.hero .hero-inner {
+    position: relative;
+    z-index: 1;
+}
+
+.hero-inner {
+    margin: 0 auto;
+    width: 100%;
+}
+
+.hero .hero-inner {
+    position: relative;
+    z-index: 1;
+}
+
+.hero.hero-bg-image.hero-bg-parallax.hero-awards:before {
+    background-color: rgb(0 0 0 / 73%) !important;
+}
+
+.hero.hero-bg-image:before {
+    content: ' ';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(0 0 0 / 73%);
+    z-index: 0;
+    border-radius: 3px;
+}
+
+.section-awards .hero .hero-inner .container .row div div {
+    width: 200px;
+    margin: auto;
+    height: 200px;
+    border-radius: 20px;
+    background-color: #ffffff1f;
+    vertical-align: middle;
+    line-height: 50px;
+    padding: 30px;
+    padding-top: 48px;
+}
+
+.hero.hero-bg-image.hero-bg-parallax.hero-awards {
+    background-repeat: no-repeat;
+    background-position-x: left;
+    background-color: #fff !important;
+}
+
+.hero.hero-bg-image.hero-bg-parallax {
+    background-attachment: fixed;
+}
+
+.section-content-title {
+    width: 100%;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 60px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+/* css contact */
+.section-contact {
+    padding: 100px 0;
+    margin-top: 30px;
+
+}
+
+.section-contact li {
+    list-style: none;
+    display: inline-block;
+    margin: 15px;
+    float: right;
+
+
+}
+
+.section-contact a:hover {
+    color: lightskyblue;
+}
+
+.section-contact a:hover {
+    margin-top: 10px;
+
+}
+
+footer {
+    padding: 30px;
+    color: #FFFFFF;
+}
+
+.logo {
+    width: 500px;
+    box-sizing: border-box;
+    color: #FFFFFF;
+}
+
+.logo img {
+    float: left;
+    margin: 10px;
+    margin-right: 25px;
+    margin-left: 45px;
+}
+
